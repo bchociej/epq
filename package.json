@@ -1,0 +1,35 @@
+{
+  "name": "epq",
+  "version": "1.0.0",
+  "description": "easy promise queue",
+  "main": "lib/epq.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/functional.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bchociej/epq.git"
+  },
+  "keywords": [
+    "promise",
+    "queue",
+    "task",
+    "epq",
+    "easy",
+    "concurrent",
+    "concurrency"
+  ],
+  "author": "Ben Chociej <ben@chociej.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bchociej/epq/issues"
+  },
+  "homepage": "https://github.com/bchociej/epq#readme",
+  "dependencies": {
+    "bluebird": "^3.4.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.4.5"
+  }
+}
